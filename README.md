@@ -6,7 +6,7 @@ Here is a basic way to fit your data to a Voigt profile:
 import peaky
 peaky.fit_voigt(x, y)
 ```
-here x and y are respectively the independent and dependent variable. The data should contain a single peak, not larger then the data set. 
+here `x` and `y` are respectively the independent and dependent variable. The data should contain a single peak, not larger then the data set. 
 If instead you would like to specifically fit the data to a gaussian or a lorentian profile, use one of these two functions instead:
 ```
 peaky.fit_gaussian(x, y)
@@ -35,7 +35,7 @@ It sets the voigt lorentian width to the value provided. If None is provided (as
 This parameters helps the process find the best initial values for the fit. For example, a value of 0.3 means then the peak occupies roughly 1 / 3 of the data set width (estimated by eye). If a lower value is provided, the noise may ruin the peak detection, while a higher value may average away the signal.
 
 - **log**
-When True (as by default), all measured parameters are printed directly on terminal together with their error bars and guessed initial values. A color coded fit signal to noise ratio may help decide if a fit is reliable. Red means unreliable, orange means not optimal, while green means reliable.
+When `True` (as by default), all measured parameters are printed directly on terminal together with their error bars and guessed initial values. A color coded fit signal to noise ratio may help decide if a fit is reliable. Red means unreliable, orange means not optimal, while green means reliable.
 
 ## Output
 These are the outputs of the fit functions:

@@ -1,0 +1,8 @@
+peaky.egg-info/
+build/
+dist/
+peaky/__pycache__/
+*~
+peaky/#*
+#*
+.#*

@@ -12,7 +12,7 @@ setup(
     author="Savino Piccolomo",
     author_email="piccolomo@gmail.com",
     name='peaky',
-    version='1.0.41',
+    version='1.1',
     description='peaky fits a single peak to a lorentian, gaussian or voigt profile',
     long_description=README,
     long_description_content_type="text/markdown",  
